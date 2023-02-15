@@ -7,13 +7,8 @@ public class Asiento {
     public int registro;
 
     //Metodos
-        //getter
-    public int getRegistro() {
-        return registro;
-    }
-
     public void cambiarColor(String color) {
-        if (color.equals("rojo") || color.equals("amarillo") || color.equals("negro") || color.equals("blanco")){
+        if (color.equals("rojo") || color.equals("amarillo") || color.equals("negro") || color.equals("blanco") || color.equals("verde")){
             this.color = color;
         }
     }

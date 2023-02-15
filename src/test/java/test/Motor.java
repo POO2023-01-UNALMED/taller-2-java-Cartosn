@@ -16,8 +16,4 @@ public class Motor {
             this.tipo = tipo;
         }
     }
-    //getter
-    public int getRegistro() {
-        return registro;
-    }
 }
