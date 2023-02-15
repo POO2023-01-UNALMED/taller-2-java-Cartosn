@@ -9,13 +9,13 @@ public class Auto {
     public Array[] asientos;
     public String marca;
     public Motor motor;
-    public static int registro;
+    public int registro;
     public static int cantidadCreados;
 
     //Metodos
     //cantidadAsientos()
     public String verificarIntegridad(){
-        if(Auto.registro == Asiento.registro && Motor.registro == Asiento.registro){
+        if(this.registro == Asiento.registro && Motor.registro == Asiento.registro){
             return "Auto original";
         }
         return "Las piezas no son originales";

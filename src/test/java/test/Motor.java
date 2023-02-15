@@ -4,7 +4,7 @@ public class Motor {
     //Atributos
     public int numeroCilindros;
     public String tipo;
-    public static int registro;
+    public int registro;
 
     //Metodos
         //setters
@@ -15,5 +15,9 @@ public class Motor {
         if (tipo.equals("electrico" )|| tipo.equals("gasolina")){
             this.tipo = tipo;
         }
+    }
+    //getter
+    public int getRegistro() {
+        return registro;
     }
 }
